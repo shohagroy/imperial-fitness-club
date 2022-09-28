@@ -1,0 +1,11 @@
+[
+  {
+    "id": "1",
+    "name": "Barbell",
+    "extension": "The barbell is the simplest looking piece of equipment in the gym, but it’s one of the most complex to learn how to use.",
+    "age": "20-25",
+    "time": 10,
+    "ratingsCount": 3725,
+    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"
+  }
+]

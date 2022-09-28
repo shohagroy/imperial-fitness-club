@@ -20,11 +20,15 @@ const CardComponent = () => {
     return (
         <div className='main-card-container'>
             <Header/>
+            <div className='card-container'>
             {
                 cards.map(card => <DisplayCard 
                     card={card}
                     /> )
             }
+
+            </div>
+            
             
         </div>
     );

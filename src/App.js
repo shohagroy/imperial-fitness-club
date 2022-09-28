@@ -1,10 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import AsideComponent from './components/AsideComponent/AsideComponent';
+import CardComponent from './components/CardComponent/CardComponent';
 
 function App() {
   return (
     <div className="App">
-      <h1>this app component</h1>
+      <CardComponent/>
+      <AsideComponent/>
     </div>
   );
 }

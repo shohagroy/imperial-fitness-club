@@ -11,6 +11,7 @@ const DisplayCard = ({card}) => {
     return (
         <div className='card'>
             <img src={img} alt="" />
+            <h3>{name}</h3>
         </div>
     );
 };

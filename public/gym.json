@@ -10,10 +10,68 @@
 
   {
     "id": "2",
-    "name": "Barbell",
-    "extension": "The barbell is the simplest looking piece of equipment in the gym, but it’s one of the most complex to learn how to use.",
+    "name": "Dumbbell",
+    "extension": "Dumbbells are often used for joint-isolation exercises such as biceps curls, chest flyes or shoulder raises. Using dumbbells for full-body, multiplanar movements, however, can provide a variety of different strength outcomes. It also offers many benefits for cardiorespiratory fitness and flexibility.",
     "age": "20-25",
     "time": 10,
-    "img": "./images/barbell.jpg"
+    "img": "./images/dumbbell.jpg"
+  },
+
+  {
+    "id": "3",
+    "name": "Back Exercises",
+    "extension": "The benefits of training your back speak for themselves, and they're why we've put together this guide to the best back exercises. These are 15 lifts that no back workout is complete without. Time to get back to training back. There are myriad reasons to train your traps, lats and beyond. We’ll let Ben West and Jordane Zammit Tabona, co-founders of London gym 360Athletic, talk you through them.",
+    "age": "20-25",
+    "time": 10,
+    "img": "./images/back-exercising.jpg"
+  },
+
+  {
+    "id": "4",
+    "name": "Rowing Machine",
+    "extension": "Helping forge elite levels of stamina and mental fortitude, indoor rowing helps build a stronger back and hamstrings, while improving power from your glutes and your arms. There's a reason almost every serious athlete — from boxers and UFC fighters, to NFL players and CrossFit athletes — incorporate rowing machines into their training.",
+    "age": "20-35",
+    "time": 10,
+    "img": "./images/Rowing-Machine.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Power Rack",
+    "extension": "A power rack is preferred if you are working out without a spotter because of the added safety features such as pin pipes or strap safeties. These features help you lift safely and can catch the barbell if you fail on a heavy set of squats, or as you're working on increasing your bench press.",
+    "age": "20-30",
+    "time": 10,
+    "img": "./images/Power-Rack.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Rowing Machine",
+    "extension": "Treadmill working is an aerobic/ cardio exercise. Studies demonstrate that aerobic exercise can minimize the risk of heart diseases. Moreover, they can strengthen your heart muscles. This helps to lower blood pressure and allows the heart to pump blood more efficiently.",
+    "age": "30-40",
+    "time": 30,
+    "img": "./images/Treadmill.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Working",
+    "extension": "Men, turn off the game on TV, and enjoy the many benefits of exercise. It improves cardiovascular health, prevents cancer and diabetes, and boosts your sex life. Listing the benefits of exercise sounds a bit like the start of a late-night infomercial for some gadget that sounds too good to be true. Feel happier? Live longer? Stop memory loss and help prevent cancer? But it is true … and all this could be yours for just three weekly workouts of 50 minutes each!",
+    "age": "25-50",
+    "time": 10,
+    "img": "./images/Working-Out.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Boxing Power Tower",
+    "extension": "Push-up bars to help you build strong chest muscles and tone your arms. Dip station develops your triceps chest and shoulder muscles along with incredible upper-body strength. Pull-Up Station: Padded hand grips which can add definition to your biceps and forearms. Push-Up Station: Padded hand grips which can work your biceps, shoulders and core. Dip Station: Padded hand grips which can build your triceps, chest and shoulders. Vertical Knee Raise (VKR) Station: With cushioned arm rests and Padded hand grips, you can enjoy full body. exercise and discover your inner six pack. Sewn Vinyl Cushions: Comfortable material, Durable, built to last. Multi-station workout tower for working upper and lower body.",
+    "age": "25-35",
+    "time": 10,
+    "img": "./images/Boxing-Power-Tower.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Leg workouts",
+    "extension": "Leg workouts engage the major muscle groups of your body, which helps to improve overall athletic performance and support healthy movement patterns in your daily life. A strong lower body will also help to prevent injury and manage chronic conditions such as arthritis, heart disease, and diabetes.",
+    "age": "25-40",
+    "time": 10,
+    "img": "./images/training.jpg"
   }
 ]

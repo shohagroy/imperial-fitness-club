@@ -1,0 +1,37 @@
+
+
+.user-info{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.user-info img{
+    width: 80px;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.info .icon{
+    padding-right: 5px;
+}
+
+.info-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 20px;
+    background-color: lightgray;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.info-container h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.info-container small{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.627);
+}

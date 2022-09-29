@@ -1,0 +1,43 @@
+
+.break-container{
+    padding: 15px;
+}
+
+.break-button-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightskyblue;
+    padding: 20px;
+}
+
+.break-button-container button{
+    /* font-size: 18px; */
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50% 52%;
+}
+
+.break-button-container .button{
+    /* background-color: white; */
+    padding: 25px;
+    border: 2px solid white;
+    margin: 7px;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+
+.button p{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color: orange;
+    color: white;
+    font-size: 25px;
+
+}

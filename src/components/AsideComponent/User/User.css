@@ -21,7 +21,7 @@
     justify-content: space-between;
     margin: 15px;
     padding: 20px;
-    background-color: lightgray;
+    background-color: rgba(135, 206, 250, 0.653);
     border-radius: 10px;
     text-align: center;
 }

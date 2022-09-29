@@ -52,3 +52,9 @@
     border-bottom-right-radius: 10px;
     
 }
+
+
+.add-button:hover{
+    background-color: lightskyblue;
+    color: black;
+}

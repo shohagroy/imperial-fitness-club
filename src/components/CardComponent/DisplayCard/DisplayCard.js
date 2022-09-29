@@ -1,12 +1,11 @@
 import React from 'react';
 import './DisplayCard.css'
 
-const DisplayCard = ({card}) => {
+const DisplayCard = ({card, addHandelar}) => {
 
 
     const {id, name, extension, age, time, img} = card;
 
-    console.log(card)
    
 
     return (
@@ -20,7 +19,7 @@ const DisplayCard = ({card}) => {
                     <h4>Fot Time: {time}</h4>
                 </div>
             </div>
-            <button className='add-button'>Add to List</button>
+            <button className='add-button' onClick={()=>addHandelar(card.time)}>Add to List</button>
 
         </div>
     );

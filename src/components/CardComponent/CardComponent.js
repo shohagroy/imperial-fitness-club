@@ -6,7 +6,7 @@ import Header from './Header/Header';
 
 
 
-const CardComponent = () => {
+const CardComponent = ({addHandelar}) => {
 
         
     const [cards, setCards] = useState([]);
@@ -23,7 +23,9 @@ const CardComponent = () => {
             <div className='card-container'>
             {
                 cards.map(card => <DisplayCard 
+                    addHandelar={addHandelar}
                     card={card}
+                    key={card.id}
                     /> )
             }
 

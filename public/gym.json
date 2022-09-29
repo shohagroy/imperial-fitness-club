@@ -13,7 +13,7 @@
     "name": "Dumbbell",
     "extension": "Dumbbells are often used for joint-isolation exercises such as biceps curls, chest flyes or shoulder raises. Using dumbbells for full-body, multiplanar movements, however, can provide a variety of different strength outcomes. It also offers many benefits for cardiorespiratory fitness and flexibility.",
     "age": "20-25",
-    "time": 10,
+    "time": 20,
     "img": "./images/dumbbell.jpg"
   },
 
@@ -22,7 +22,7 @@
     "name": "Back Exercises",
     "extension": "The benefits of training your back speak for themselves, and they're why we've put together this guide to the best back exercises. These are 15 lifts that no back workout is complete without. Time to get back to training back. There are myriad reasons to train your traps, lats and beyond. We’ll let Ben West and Jordane Zammit Tabona, co-founders of London gym 360Athletic, talk you through them.",
     "age": "20-25",
-    "time": 10,
+    "time": 30,
     "img": "./images/back-exercising.jpg"
   },
 
@@ -67,7 +67,7 @@
     "img": "./images/Boxing-Power-Tower.jpg"
   },
   {
-    "id": "4",
+    "id": "9",
     "name": "Leg workouts",
     "extension": "Leg workouts engage the major muscle groups of your body, which helps to improve overall athletic performance and support healthy movement patterns in your daily life. A strong lower body will also help to prevent injury and manage chronic conditions such as arthritis, heart disease, and diabetes.",
     "age": "25-40",

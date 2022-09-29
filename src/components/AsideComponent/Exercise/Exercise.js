@@ -15,10 +15,11 @@ const Exercise = ({excTime, restTime}) => {
             text: "You Daily Activity Completed!",
             icon: "success",
           });
-        
-
-        console.log('button')
     }
+
+        if(!restTime){
+            restTime = 0;
+        }
 
 
     return (

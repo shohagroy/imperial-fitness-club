@@ -1,0 +1,50 @@
+
+
+.question-main-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr );
+    grid-gap: 30px;
+    margin:20px;
+}
+
+
+.ans-countainer{
+    border: 2px solid black;
+    padding: 20px;
+    background-color: rgba(135, 206, 250, 0.442);
+}
+
+.ans-countainer ol{
+    margin-left: 20px;
+}
+
+
+
+/* 688px 992 1312 */
+
+@media only screen and (max-width: 688px) {
+        
+    .question-main-container{
+        display: block;
+    }
+
+    .ans-countainer{
+        margin: 30px auto;
+    }
+
+  }
+  
+
+  
+
+@media (min-width: 688px) and (max-width: 1312px) {
+    .question-main-container{
+        display: block;
+    }
+    
+    .ans-countainer{
+        margin: 30px auto;
+        
+    }
+
+  }

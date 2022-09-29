@@ -11,7 +11,7 @@ const Exercise = ({excTime, restTime}) => {
 
     const sweetAlert = ()=>{
         swal({
-            title: "congratulations!",
+            title: "Congratulations!",
             text: "You Daily Activity Completed!",
             icon: "success",
           });

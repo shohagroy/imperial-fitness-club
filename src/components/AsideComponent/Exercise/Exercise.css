@@ -1,7 +1,7 @@
 
 .exercise-details-container{
     padding: 15px;
-    position: sticky;
+    /* position: sticky; */
 }
 
 .exercise-container{
@@ -38,7 +38,6 @@
 /* 688px 992 1312 */
 
 @media only screen and (max-width: 688px) {
-
         
     .exercise-details-container button{
         margin-top: 20px 0;

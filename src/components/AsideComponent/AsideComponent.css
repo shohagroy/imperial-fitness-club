@@ -5,3 +5,14 @@
     position: sticky;
     top: 0;
 }
+
+/* 688px 992 1312 */
+
+@media only screen and (max-width: 688px) {
+
+    .aside{
+        position: relative;
+    }
+  }
+  
+  

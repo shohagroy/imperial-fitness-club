@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import AsideComponent from './components/AsideComponent/AsideComponent';
 import CardComponent from './components/CardComponent/CardComponent';
+import QuestionAnswer from './QuestionAnswer/QuestionAnswer';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
     <div className="App">
       <CardComponent addHandelar={addListButton}/>
       <AsideComponent time={time}/>
+      <QuestionAnswer/>
     </div>
   );
 }

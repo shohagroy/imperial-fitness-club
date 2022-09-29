@@ -9,25 +9,26 @@ const Break = ({breakButton}) => {
         <div className='break-container'>
             <h2>Add a Break</h2>
             <div className='break-button-container'>
-                <div className='button'>
-                    <p onClick={()=>breakButton(10)}>10<small>S</small></p>
-                </div>
-                <div className='button'>
-                    <p onClick={()=>breakButton(20)}>20<small>S</small></p>
-                </div>
-                <div className='button'>
-                    <p onClick={()=>breakButton(30)}>30<small>S</small></p>
-                </div>
-                <div className='button'>
-                    <p onClick={()=>breakButton(40)}>40<small>S</small></p>
-                </div>
-                <div className='button'>
-                    <p onClick={()=>breakButton(50)}>50<small>S</small></p>
-                </div>
+                <Button breakButton={breakButton} time="10"/>
+                <Button breakButton={breakButton} time="15"/>
+                <Button breakButton={breakButton} time="20"/>
+                <Button breakButton={breakButton} time="25"/>
+                <Button breakButton={breakButton} time="30"/>
             </div>
             
         </div>
     );
 };
 
+
+// Button component
+const Button = ({time, breakButton}) => {
+    return(
+        <div className='button'
+        onClick={()=> breakButton(time)}
+        >
+            <p >{time}<small>S</small></p>
+        </div>
+    )
+}
 export default Break;

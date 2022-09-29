@@ -19,14 +19,13 @@ const AsideComponent = ({time}) => {
     
     const breakButton = (currentBreak) => {
         setBreakTime(currentBreak)
-        localStorage.setItem('breakTime', currentBreak)
+        localStorage.setItem('breakTime', currentBreak);
     }
     
     return (
         <div className='aside'>
             <User/>
-            <Break breakButton={breakButton}>
-            </Break>
+            <Break breakButton={breakButton}/>
             <Exercise excTime={time} restTime={displayTime}/>
         </div>
     );

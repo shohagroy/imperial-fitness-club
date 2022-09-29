@@ -17,7 +17,7 @@
 
 .exercise-details-container button{
     width: 100%;
-    margin-top: 70px;
+    margin-top: 30px;
     height: 50px;
     font-size: 20px;
     border: none;
@@ -27,3 +27,29 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+.exercise-details-container button:hover{
+    background-color: lightskyblue;
+}
+
+
+
+
+/* 688px 992 1312 */
+
+@media only screen and (max-width: 688px) {
+
+        
+    .exercise-details-container button{
+        margin-top: 20px 0;
+        height: 50px;
+    }
+  }
+
+@media (min-width: 688px) and (max-width: 1312px) {
+      
+    .exercise-details-container button{
+        margin-top: 20px 0;
+        height: 50px;
+    }
+  }

@@ -2,9 +2,11 @@
 
 .header-container{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     margin: 30px;
+    padding: 0 20px;
+    color: orange;
 
 }
 
@@ -19,3 +21,48 @@
 .header-container h1{
     font-size: 40px;
 }
+
+
+
+/* 688px 992 1312 */
+
+@media only screen and (max-width: 688px) {
+    
+    .header-container{
+        justify-content: center;
+        margin: 0px;
+        padding: 10px;
+    }
+
+    .header-container img{
+        width: 60px;
+        height: 50px;
+        padding: 0px;
+    }
+
+    .header-container h1{
+        font-size: 1.5rem;
+    }
+
+  }
+  
+
+  
+@media (min-width: 688px) and (max-width: 1312px) {
+    
+    .header-container{
+        justify-content: center;
+        margin: 5px;
+        padding: 10px;
+    }
+
+    .header-container img{
+        width: 70px;
+        height: 60px;
+        padding: 0px;
+    }
+
+    .header-container h1{
+        font-size: 2rem;
+    }
+  }

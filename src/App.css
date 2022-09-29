@@ -9,3 +9,22 @@
   display: grid;
   grid-template-columns: 4fr 1fr;
 }
+
+
+
+/* 688px 992 1312 */
+
+@media only screen and (max-width: 688px) {
+
+  .App{
+    display: block;
+  }
+}
+
+
+@media (min-width: 688px) and (max-width: 1312px) {
+  .App {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+}

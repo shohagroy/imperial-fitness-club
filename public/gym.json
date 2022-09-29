@@ -13,7 +13,7 @@
     "name": "Dumbbell",
     "extension": "Dumbbells are often used for joint-isolation exercises such as biceps curls, chest flyes or shoulder raises. Using dumbbells for full-body, multiplanar movements, however, can provide a variety of different strength outcomes. It also offers many benefits for cardiorespiratory fitness and flexibility.",
     "age": "20-25",
-    "time": 20,
+    "time": 15,
     "img": "./images/dumbbell.jpg"
   },
 
@@ -22,7 +22,7 @@
     "name": "Back Exercises",
     "extension": "The benefits of training your back speak for themselves, and they're why we've put together this guide to the best back exercises. These are 15 lifts that no back workout is complete without. Time to get back to training back. There are myriad reasons to train your traps, lats and beyond. We’ll let Ben West and Jordane Zammit Tabona, co-founders of London gym 360Athletic, talk you through them.",
     "age": "20-25",
-    "time": 30,
+    "time": 20,
     "img": "./images/back-exercising.jpg"
   },
 
@@ -31,7 +31,7 @@
     "name": "Rowing Machine",
     "extension": "Helping forge elite levels of stamina and mental fortitude, indoor rowing helps build a stronger back and hamstrings, while improving power from your glutes and your arms. There's a reason almost every serious athlete — from boxers and UFC fighters, to NFL players and CrossFit athletes — incorporate rowing machines into their training.",
     "age": "20-35",
-    "time": 10,
+    "time": 20,
     "img": "./images/Rowing-Machine.jpg"
   },
   {
@@ -39,7 +39,7 @@
     "name": "Power Rack",
     "extension": "A power rack is preferred if you are working out without a spotter because of the added safety features such as pin pipes or strap safeties. These features help you lift safely and can catch the barbell if you fail on a heavy set of squats, or as you're working on increasing your bench press.",
     "age": "20-30",
-    "time": 10,
+    "time": 15,
     "img": "./images/Power-Rack.jpg"
   },
   {
@@ -71,7 +71,7 @@
     "name": "Leg workouts",
     "extension": "Leg workouts engage the major muscle groups of your body, which helps to improve overall athletic performance and support healthy movement patterns in your daily life. A strong lower body will also help to prevent injury and manage chronic conditions such as arthritis, heart disease, and diabetes.",
     "age": "25-40",
-    "time": 10,
+    "time": 15,
     "img": "./images/training.jpg"
   }
 ]

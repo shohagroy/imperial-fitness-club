@@ -9,11 +9,11 @@ const Break = ({breakButton}) => {
         <div className='break-container'>
             <h2>Add a Break</h2>
             <div className='break-button-container'>
+                <Button breakButton={breakButton} time="2"/>
+                <Button breakButton={breakButton} time="5"/>
                 <Button breakButton={breakButton} time="10"/>
                 <Button breakButton={breakButton} time="15"/>
                 <Button breakButton={breakButton} time="20"/>
-                <Button breakButton={breakButton} time="25"/>
-                <Button breakButton={breakButton} time="30"/>
             </div>
             
         </div>
@@ -27,7 +27,7 @@ const Button = ({time, breakButton}) => {
         <div className='button'
         onClick={()=> breakButton(time)}
         >
-            <p >{time}<small>S</small></p>
+            <p >{time}<small>m</small></p>
         </div>
     )
 }

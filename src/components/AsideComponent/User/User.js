@@ -24,11 +24,11 @@ const User = () => {
 
             <div className='info-container'>
                 <div>
-                    <h2>75<samp><small>kg</small></samp></h2>
+                    <h2>62<samp><small>kg</small></samp></h2>
                     <p>Weight</p>
                 </div>
                 <div>
-                    <h2>6.5</h2>
+                    <h2>5.5</h2>
                     <p>Height</p>
                 </div>
                 <div>

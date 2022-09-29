@@ -1,7 +1,7 @@
 
 
 .main-card-container{
-    background-color: lightgray;
+    background-color: rgba(135, 206, 250, 0.134);
 
 }
 
@@ -13,3 +13,25 @@
     margin: 50px;
 }
 
+
+
+/* 688px 992 1312 */
+
+@media only screen and (max-width: 688px) {
+
+    .card-container{
+        display: block;
+        margin: 15px;
+    }
+  }
+  
+
+  
+
+@media (min-width: 688px) and (max-width: 1312px) {
+    .card-container {
+      display: block;
+      margin: 30px auto;
+      max-width: 500px;
+    }
+  }

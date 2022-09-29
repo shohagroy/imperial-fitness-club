@@ -1,9 +1,24 @@
 import React from 'react';
 import './Exercise.css'
 
+import swal from 'sweetalert';
+
+
 
 
 const Exercise = ({excTime, restTime}) => {
+
+
+    const sweetAlert = ()=>{
+        swal({
+            title: "congratulations!",
+            text: "You Daily Activity Completed!",
+            icon: "success",
+          });
+        
+
+        console.log('button')
+    }
 
 
     return (
@@ -19,7 +34,8 @@ const Exercise = ({excTime, restTime}) => {
                 <p>{restTime} Minute</p>
             </div>
 
-            <button>Activity Completed</button>
+
+            <button onClick={sweetAlert}>Activity Completed</button>
             
         </div>
     );
